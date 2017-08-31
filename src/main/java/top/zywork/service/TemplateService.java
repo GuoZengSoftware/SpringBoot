@@ -10,5 +10,6 @@ public interface TemplateService<T, PK> {
     void save(T t);
     T getById(PK id);
     List<T> listAll();
+    List<T> listDOS();
 
 }

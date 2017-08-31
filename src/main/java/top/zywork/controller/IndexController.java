@@ -49,6 +49,11 @@ public class IndexController {
         return templateService.listAll();
     }
 
+    @GetMapping("index5")
+    public List<TemplateDO> index5() {
+        return templateService.listDOS();
+    }
+
     @Resource
     public void setTemplateService(TemplateService<TemplateDO, Long> templateService) {
         this.templateService = templateService;

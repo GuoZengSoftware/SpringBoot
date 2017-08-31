@@ -32,6 +32,11 @@ public class TemplateServiceImpl implements TemplateService<TemplateDO, Long> {
         return templateDAO.findAll();
     }
 
+    @Override
+    public List<TemplateDO> listDOS() {
+        return templateDAO.findDOS();
+    }
+
     @Resource
     public void setTemplateDAO(TemplateDAO templateDAO) {
         this.templateDAO = templateDAO;
