@@ -1,4 +1,4 @@
-package zywork.top;
+package top.zywork;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

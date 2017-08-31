@@ -1,4 +1,4 @@
-package zywork.top;
+package top.zywork;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

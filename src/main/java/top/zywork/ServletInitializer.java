@@ -1,4 +1,4 @@
-package zywork.top;
+package top.zywork;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.support.SpringBootServletInitializer;
